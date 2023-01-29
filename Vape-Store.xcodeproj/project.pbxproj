@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044E12D52979A47500A71D6C /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044E12D42979A47500A71D6C /* Product.storyboard */; };
+		044E12D72979A4A000A71D6C /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E12D62979A4A000A71D6C /* ProductVC.swift */; };
+		044E12D92979AA0600A71D6C /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E12D82979AA0600A71D6C /* ProductCell.swift */; };
+		045D1F5E2979B0E800763454 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D1F5D2979B0E800763454 /* Product.swift */; };
 		04ED4D6D2978597100F67674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED4D6C2978597100F67674 /* AppDelegate.swift */; };
 		04ED4D6F2978597100F67674 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED4D6E2978597100F67674 /* SceneDelegate.swift */; };
-		04ED4D712978597100F67674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED4D702978597100F67674 /* ViewController.swift */; };
+		04ED4D712978597100F67674 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED4D702978597100F67674 /* SplashScreenVC.swift */; };
 		04ED4D742978597100F67674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED4D722978597100F67674 /* Main.storyboard */; };
 		04ED4D762978597200F67674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ED4D752978597200F67674 /* Assets.xcassets */; };
 		04ED4D792978597200F67674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED4D772978597200F67674 /* LaunchScreen.storyboard */; };
+		04ED4D8429786AE700F67674 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED4D8329786AE700F67674 /* Slide.swift */; };
+		04ED4D8629786B1D00F67674 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED4D8529786B1D00F67674 /* Slide.xib */; };
+		04F78297298592C3000A5162 /* Vape-Store.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04F78295298592C3000A5162 /* Vape-Store.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044E12D42979A47500A71D6C /* Product.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
+		044E12D62979A4A000A71D6C /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		044E12D82979AA0600A71D6C /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		045D1F5D2979B0E800763454 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		04ED4D692978597100F67674 /* Vape-Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED4D6C2978597100F67674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ED4D6E2978597100F67674 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04ED4D702978597100F67674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04ED4D702978597100F67674 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		04ED4D732978597100F67674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04ED4D752978597200F67674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ED4D782978597200F67674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04ED4D7A2978597200F67674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ED4D8329786AE700F67674 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		04ED4D8529786B1D00F67674 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		04F78296298592C3000A5162 /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045D1F5C2979B0D200763454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				045D1F5D2979B0E800763454 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		04ED4D602978597000F67674 = {
 			isa = PBXGroup;
 			children = (
+				04F782942985929C000A5162 /* CoreData */,
+				045D1F5C2979B0D200763454 /* Model */,
+				04ED4D8229785AA000F67674 /* Delegate */,
+				04ED4D8129785A8900F67674 /* Controller */,
+				04ED4D8029785A6D00F67674 /* View */,
 				04ED4D6B2978597100F67674 /* Vape-Store */,
 				04ED4D6A2978597100F67674 /* Products */,
 			);
@@ -56,15 +83,49 @@
 		04ED4D6B2978597100F67674 /* Vape-Store */ = {
 			isa = PBXGroup;
 			children = (
-				04ED4D6C2978597100F67674 /* AppDelegate.swift */,
-				04ED4D6E2978597100F67674 /* SceneDelegate.swift */,
-				04ED4D702978597100F67674 /* ViewController.swift */,
-				04ED4D722978597100F67674 /* Main.storyboard */,
 				04ED4D752978597200F67674 /* Assets.xcassets */,
-				04ED4D772978597200F67674 /* LaunchScreen.storyboard */,
 				04ED4D7A2978597200F67674 /* Info.plist */,
 			);
 			path = "Vape-Store";
+			sourceTree = "<group>";
+		};
+		04ED4D8029785A6D00F67674 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04ED4D722978597100F67674 /* Main.storyboard */,
+				04ED4D772978597200F67674 /* LaunchScreen.storyboard */,
+				04ED4D8529786B1D00F67674 /* Slide.xib */,
+				044E12D42979A47500A71D6C /* Product.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04ED4D8129785A8900F67674 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04ED4D702978597100F67674 /* SplashScreenVC.swift */,
+				04ED4D8329786AE700F67674 /* Slide.swift */,
+				044E12D62979A4A000A71D6C /* ProductVC.swift */,
+				044E12D82979AA0600A71D6C /* ProductCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04ED4D8229785AA000F67674 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				04ED4D6C2978597100F67674 /* AppDelegate.swift */,
+				04ED4D6E2978597100F67674 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		04F782942985929C000A5162 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04F78295298592C3000A5162 /* Vape-Store.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +189,8 @@
 				04ED4D792978597200F67674 /* LaunchScreen.storyboard in Resources */,
 				04ED4D762978597200F67674 /* Assets.xcassets in Resources */,
 				04ED4D742978597100F67674 /* Main.storyboard in Resources */,
+				04ED4D8629786B1D00F67674 /* Slide.xib in Resources */,
+				044E12D52979A47500A71D6C /* Product.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04ED4D712978597100F67674 /* ViewController.swift in Sources */,
+				04ED4D712978597100F67674 /* SplashScreenVC.swift in Sources */,
+				04F78297298592C3000A5162 /* Vape-Store.xcdatamodeld in Sources */,
 				04ED4D6D2978597100F67674 /* AppDelegate.swift in Sources */,
 				04ED4D6F2978597100F67674 /* SceneDelegate.swift in Sources */,
+				044E12D92979AA0600A71D6C /* ProductCell.swift in Sources */,
+				044E12D72979A4A000A71D6C /* ProductVC.swift in Sources */,
+				04ED4D8429786AE700F67674 /* Slide.swift in Sources */,
+				045D1F5E2979B0E800763454 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +428,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04F78295298592C3000A5162 /* Vape-Store.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04F78296298592C3000A5162 /* Products.xcdatamodel */,
+			);
+			currentVersion = 04F78296298592C3000A5162 /* Products.xcdatamodel */;
+			path = "Vape-Store.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04ED4D612978597000F67674 /* Project object */;
 }

@@ -9,4 +9,11 @@ import UIKit
 
 class ProductCell: UICollectionViewCell {
     
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var priceLBL: UILabel!
+    
+    @IBOutlet weak var desLBL: UILabel!
+    
+    
 }
